@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    printf("welcome to the C world\n");
+
+    printf("--------------------------\n");
+    printf("| welcome to the C world |\n");
+    printf("--------------------------\n");
 
     return 0;
 }
