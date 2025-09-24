@@ -4,9 +4,9 @@ int main() {
 
     int y , x , z;
 
-    x= 25;
+    x= 12;
 
-    y= 13;
+    y= 5;
 
     z= y + x;
 
