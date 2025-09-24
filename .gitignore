@@ -1,3 +1,44 @@
-/cmake-build-debug
-CMakeLists.txt
-.idea
+# --- Build / Output dosyaları ---
+cmake-build-*/
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# --- CLion / JetBrains IDE dosyaları ---
+.idea/
+*.iml
+
+# --- CMake cache ve ayar dosyaları ---
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# --- Log / geçici dosyalar ---
+*.log
+*.tmp
+*.temp
+
+# --- OS-specific ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS (eğer başka cihazda açarsan)
+.DS_Store

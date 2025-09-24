@@ -1,8 +1,0 @@
-# ninja log v6
-19	166	7663673067222552	CMakeFiles/untitled.dir/main.c.obj	d4bef5020c39ee8b
-118	206	7666340115419726	untitled.exe	b38a6df6e7ea7e29
-1	312	7666347743101479	build.ninja	738a45bd17a3bff6
-3	126	7666343645697875	CMakeFiles/untitled.dir/Lecture1/welcomeToC.c.obj	67111eea5614f5ea
-2	122	7666345731519986	CMakeFiles/untitled.dir/Lecture1/welcome-to-my-hell.c.obj	a5f315c82c7ec203
-1	304	7666347743101479	build.ninja	738a45bd17a3bff6
-18	105	7666347744505568	untitled.exe	b38a6df6e7ea7e29

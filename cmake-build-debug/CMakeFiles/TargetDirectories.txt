@@ -1,3 +1,0 @@
-C:/Users/omert/CLionProjects/introduction-to-c/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/omert/CLionProjects/introduction-to-c/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/omert/CLionProjects/introduction-to-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
