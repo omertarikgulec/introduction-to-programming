@@ -2,23 +2,23 @@
 
 int main() {
 
-    unsigned int x ;
+    unsigned int a ;
 
-    unsigned int y ;
+    unsigned int b ;
 
-    float z ;
+    float c ;
 
-    printf("please enter your midterm grade. ");
+    printf("Please enter your midterm grade. ");
 
-    scanf("%u" , & x);
+    scanf("%u" , & a);
 
-    printf("please enter your final grade. ");
+    printf("Please enter your final grade. ");
 
-    scanf("%u" , & y);
+    scanf("%u" , & b);
 
-    z = (x*40/100) + (y*60/100);
+    c = (a*40/100) + (b*60/100);
 
-    printf("It is your Grade Average Point %.2f" , z );
+    printf("It is your Grade Average Point %.2f" , c );
 
     return 0;
 
