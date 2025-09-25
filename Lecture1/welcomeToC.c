@@ -2,14 +2,20 @@
 
 int main() {
 
-    int y , x , z;
+    int x = 5;
 
-    x= 12;
+    float y = 3.5;
 
-    y= 5;
+    float z = x*y;
 
-    z= y + x;
+    printf("x = %d , " , x);
 
-    printf("%d" , z);
+    printf(" y = %f\n" , y);
+
+    printf("z = y*x . find the value of z \n");
+
+    printf("z = %f" , z );
+
+
     return 0;
 }
