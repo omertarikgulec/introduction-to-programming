@@ -1,21 +1,22 @@
+#include <math.h>
 #include <stdio.h>
 
 int main() {
 
     printf("Enter the amount of money");
 
-    int x;
+    int y;
 
     float interestrate ;
 
 
-    scanf("%d", &x);
+    scanf("%d", &y);
 
-    if (x>1000 && x<10000) {
+    if (y>1000 && y<10000) {
         interestrate = 3.2 ;
     }
 
-    else if (x>500 && x<1000) {
+    else if (y>500 && y<1000) {
         interestrate = 4.5 ;
     }
 
