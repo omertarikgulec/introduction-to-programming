@@ -21,7 +21,7 @@ int main() {
 
         printf("It is your average grade %.2f\n", z);
 
-        if (z>=50)
+        if (z>=50 && y>=50)
 
                 printf("You passed!\n");
 
