@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
     int main() {
@@ -7,6 +8,7 @@
         float x , y ;
 
         printf("Welcome to calculator\n");
+
 
         printf("Choose an operation\n");
 
@@ -20,6 +22,7 @@
 
         scanf("%d", &option);
 
+
         printf("Enter the numbers to calculate\n");
 
         scanf("%f %f", &x , &y);
@@ -27,7 +30,7 @@
         switch (option) {
 
             case 1:printf("%.2f\n" , x+y);
-                break;
+                break;// We use break to exit the switch after executing that case.
 
             case 2:printf("%.2f\n" , x-y);
                 break;
