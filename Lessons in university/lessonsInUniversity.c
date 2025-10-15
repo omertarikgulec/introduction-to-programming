@@ -289,4 +289,30 @@ int main() {
 
 
 
+}
+
+#include <stdio.h>
+int main() {
+
+    int x , y , z;
+
+    printf("Enter the numbers:\n");
+
+    scanf("%d" , &x);
+    scanf("%d" , &y);
+    scanf("%d" , &z);
+
+    int max=x;
+
+    if(y>max) {
+        max=y;
+    }
+
+    if(z>max) {
+        max=z;
+    }
+
+    printf("Maximum number is : %d" , max);
+
+    return 0;
 }*/
