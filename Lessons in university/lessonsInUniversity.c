@@ -315,4 +315,90 @@ int main() {
     printf("Maximum number is : %d" , max);
 
     return 0;
+}
+
+#include <stdio.h>
+int main() {
+
+    int i;
+    int sum = 0;
+    int x;
+
+    printf("enter the value ");
+    scanf("%d", &x);
+
+    for (i=1;i<=x; i++){
+        sum += i;
+        }
+        }
+
+#include <stdio.h>
+int main(){
+
+    int control,i, number;
+
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    control=0;
+
+    for (i = 2; i <= number/2; i++) {
+
+        if (number % i == 0) {
+        control=1;
+        }
+    }
+    if (control == 0) {
+        printf("The number is prime");
+    }else {
+        printf("The number is not prime");
+    }
+
+
+    return 0;
+
+
+
+
+}
+
+#include <stdio.h>
+int main() {
+
+    int i,number,control;
+    control=0;
+    printf("Enter a number: ");
+    scanf("%d",&number);
+
+
+
+    for(i=1;i<number;i++) {
+        if(number%i==0) {
+            control+=i;
+        }
+
+
+    }
+
+    if(control==number) {
+        printf(" %d is perfect number", number);
+    }
+    else {
+        printf("%d is not perfect number", number);
+    }
+
+
+    return 0;
+
+
+
 }*/
+
+
+
+
+
+
+
+
+
